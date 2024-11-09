@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: rgb(10, 2, 36);
+}
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  float: left;
+  height: 250vh;
+  background-color: rgb(8, 1, 29);
+  padding: 30px;
+}
+.sidebar ul {
+  background-color: rgb(8, 1, 29);
+}
+.sidebar ul li {
+  margin: 20px;
+  background-color: rgb(8, 1, 29);
+  list-style: none;
+}
+#username {
+  text-align: center;
+}
+#useremail {
+  text-align: center;
+}
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+  background-color: rgb(8, 1, 29);
+}
+.sidebar ul li a img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#profilepic {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+/* ========================sidebar========================= */
+
+.smallsidebar {
+  display: none;
+}
+
+.smallsidebar {
+  float: left;
+  height: 100vh;
+  padding: 15px;
+  background-color: rgb(8, 1, 29);
+}
+
+.smallsidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px;
+  background-color: rgb(8, 1, 29);
+}
+
+.smallsidebar ul li {
+  margin: 20px;
+  background-color: rgb(8, 1, 29);
+}
+.smallsidebar ul {
+  background-color: rgb(8, 1, 29);
+  list-style: none;
+}
+.smallsidebar ul li a img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.smallsidebar ul li a i {
+  font-size: 20px;
+}
+
+@media  (max-width: 1024px) {
+  .sidebar {
+    margin-left: -300px;
+    background-color: rgb(8, 1, 29);
+  }
+  .smallsidebar {
+    display: block;
+    background-color: rgb(8, 1, 29);
+  }
+}
+/* ==================topbar============= */
+
+#topbar {
+  background-color: rgb(8, 1, 29);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  height: auto;
+  width: auto;
+  padding: auto;
+}
+@media (max-width:768px) {
+  .smallsidebar{
+    height: 220vh;
+  }
+  #topbar{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADMIN DASHBOARD</title>
+    <link rel="stylesheet" href="./sidebar.css" />
+    <link rel="stylesheet" href="./searchbar.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  </head>
+  <body onload="info()">
+    <aside class="sidebar">
+      <ul>
+        <li  id="profilepic">
+          <a href="#">
+            <img
+              id="img"
+             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNdUugcHaFpnKGytBJWevXqlXMWbMBq8UaTg&s"
+              alt="user image"
+            />
+          </a>
+        </li>
+        <li id="username"></li>
+        <li id="useremail"></li>
+        <li><a href="dashboard.html"> Dashboard </a></li>
+        <li><a href="#"> Product </a></li>
+        <li><a href="./user.html"> Users </a></li>
+        <li><a href="#"> Subscriptions </a></li>
+        <li><a href="#"> Upcoming </a></li>
+        <li><a href="#"> Reviews </a></li>
+        <li><a href="#"> Report </a></li>
+        <li><a href="#"> Setting </a></li>
+      </ul>
+    </aside>
+    <aside class="smallsidebar">
+      <ul>
+        <li onclick="showside()">
+          <i style="color: white;" class="fa-solid fa-bars"></i>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              id="img"
+              src="https://static.vecteezy.com/system/resources/thumbnails/036/135/738/small_2x/ai-generated-colored-water-drops-on-abstract-background-water-drops-on-colorful-background-colored-wallpaper-ultra-hd-colorful-wallpaper-background-with-colored-bubbles-photo.jpg"
+              alt=""
+            />
+          </a>
+        </li>
+        <li>
+          <a href="dashboard.html"> <i class="fa-solid fa-table-columns"></i> </a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa-brands fa-product-hunt"></i></i> </a>
+        </li>
+        <li>
+          <a href="./user.html"> <i class="fa-solid fa-user"></i></a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa-solid fa-s"></i> </a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa-solid fa-u"></i></i> </a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-r"></i></a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa-solid fa-square-poll-vertical"></i> </a>
+        </li>
+        <li>
+          <a href="#"> <i class="fa-solid fa-gear"></i> </a>
+        </li>
+      </ul>
+    </aside>
+<div class="main">
+    <h1 id="topbar">ADMIN DASHBOARD</h1>
+    <!-- ======================= -->
+    <div class="logo">
+      <h1>Ani<span>me</span></h1>
+    </div>
+    <div class="container">
+      <div class="search-container">
+          <input type="text" id="search-input" placeholder="Search for anime..." />
+          <button id="search-button">Search</button>
+      </div>
+  </div>
+  <div>
+      <ul id="results-list"></ul>
+  </div>
+  <div class="row1">
+    <div class="container1">
+      <div class="box1">
+        <i class="fa-solid fa-chart-line"></i>
+      </div>
+      <div class="box2">
+        <h1>Today Sale</h1>
+        <h1>$125</h1>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="box1">
+        <i class="fa-solid fa-chart-column"></i>
+      </div>
+      <div class="box2">
+        <h1>Today Sale</h1>
+        <h1>$125</h1>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="box1">
+        <i class="fa-solid fa-chart-area"></i>
+      </div>
+      <div class="box2">
+        <h1 style="font-size: 25px;">Today Revenue</h1>
+        <h1 style="font-size: 25px;">$125</h1>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="box1">
+        <i class="fa-solid fa-chart-pie"></i>
+      </div>
+      <div class="box2">
+        <h1 style="font-size: 25px;">Today Revenue</h1>
+        <h1 style="font-size: 25px;">$125</h1>
+      </div>
+    </div>
+  </div>
+  <div class="table" >
+    <h1>Product</h1>
+  <table>
+   <thead>
+     <tr>
+       <th>S.no</th>
+       <th>Date</th>
+       <th>Title</th>
+       <th>Type</th>
+       <th>Amount</th>
+       <th>Status</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>1</td>
+       <td>12 Jun 2024</td>
+       <td>The seven deadly Sins: Wrath of the gods </td>
+       <td>Series</td>
+       <td>$125</td>
+       <td>Uploaded</td>
+     </tr>
+     <tr>
+       <td>2</td>
+       <td>05 Nov 2024</td>
+       <td>Gintama Movie 2: Kanketsu-hen-Yorozuya yo Eien</td>
+       <td>Series</td>
+       <td>$125</td>
+       <td>Upcoming</td>
+     </tr>
+     <tr>
+       <td>3</td>
+       <td>19 May 2024</td>
+       <td>Fullmetal Achemist: Brotherhood</td>
+       <td>Series</td>
+       <td>$125</td>
+       <td>Uploaded</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>9 May 2024</td>
+        <td>Shiratorizawa Gakuen koukou</td>
+        <td>Series</td>
+        <td>$125</td>
+        <td>Upcoming</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>10 August 2024</td>
+        <td>Code Geass:Hangyaku no Lelouch R2</td>
+        <td>Series</td>
+        <td>$125</td>
+        <td>Uploaded</td>
+      </tr>
+    </tbody>
+   </table>
+  </div>
+  <div class="product">
+    <div class="table">
+      <h1>Recent Sales</h1>
+    <table>
+     <thead>
+       <tr>
+         <th>S.no</th>
+         <th>Date</th>
+         <th>Invoice</th>
+         <th>Customer</th>
+         <th>Amount</th>
+         <th>Status</th>
+         <th>Action</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>1</td>
+         <td>01 Jan 2045</td>
+         <td>INV-0123</td>
+         <td>Jhon Doe</td>
+         <td>$123</td>
+         <td>Paid</td>
+         <td><button class="detail-button">Detail</button></td>
+       </tr>
+       <tr>
+         <td>2</td>
+         <td>01 Jan 2045</td>
+         <td>INV-0123</td>
+         <td>Jhon Doe</td>
+         <td>$123</td>
+         <td>Paid</td>
+         <td><button class="detail-button">Detail</button></td>
+       </tr>
+       <tr>
+         <td>3</td>
+         <td>01 Jan 2045</td>
+         <td>INV-0123</td>
+         <td>Jhon Doe</td>
+         <td>$123</td>
+         <td>Paid</td>
+          <td><button class="detail-button">Detail</button></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>01 Jan 2045</td>
+          <td>INV-0123</td>
+          <td>Jhon Doe</td>
+          <td>$123</td>
+          <td>Paid</td>
+          <td><button class="detail-button">Detail</button></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>01 Jan 2045</td>
+          <td>INV-0123</td>
+          <td>Jhon Doe</td>
+          <td>$123</td>
+          <td>Paid</td>
+          <td><button class="detail-button">Detail</button></td>
+        </tr>
+      </tbody>
+     </table>
+  </div>
+<div class="box" >
+  <div class="row3" style="width: 40vw;">
+    <div class="msg">
+     <table>
+      <tr>
+        <th>
+          <h1>MESSAGE</h1>
+        </th>
+      </tr>
+      <tr class="box">
+        <td>
+          <div id="img">
+          <img src="https://images.pexels.com/photos/719396/pexels-photo-719396.jpeg?cs=srgb&dl=pexels-gabriel-peter-219375-719396.jpg&fm=jpg" alt="user" style="height: 50px;width: 50px; border-radius: 50%;">
+          </div>
+          <div id="message">
+          <p>John Doe</p>
+          </div>
+        </td>
+      </tr>
+      <tr class="box">
+        <td>
+          <div id="img">
+            <img src="https://images.pexels.com/photos/719396/pexels-photo-719396.jpeg?cs=srgb&dl=pexels-gabriel-peter-219375-719396.jpg&fm=jpg" alt="user" style="height: 50px;width: 50px; border-radius: 50%;">
+          </div>
+          <div id="message">
+          <p>John Doe</p>
+          </div>
+        </td>
+      </tr>
+      <tr class="box">
+        <td>
+          <div id="img">
+            <img src="https://images.pexels.com/photos/719396/pexels-photo-719396.jpeg?cs=srgb&dl=pexels-gabriel-peter-219375-719396.jpg&fm=jpg" alt="user" style="height: 50px;width: 50px; border-radius: 50%;">
+          </div>
+          <div id="message">
+          <p>John Doe</p>
+          </div>
+        </td>
+      </tr>
+      <tr class="box">
+        <td>
+          <div id="img">
+            <img src="https://images.pexels.com/photos/719396/pexels-photo-719396.jpeg?cs=srgb&dl=pexels-gabriel-peter-219375-719396.jpg&fm=jpg" alt="user" style="height: 50px;width: 50px; border-radius: 50%;">
+          </div>
+          <div id="message">
+          <p>John Doe</p>
+          </div>
+        </td>
+      </tr>
+     </table>
+  </div>
+  </div>
+  <div class="calendar" style="width: 40vw;height: 200px !important;">
+    <div class="header">
+        <h2>June 2024</h2>
+    </div>
+    <div class="days">
+        <div class="day">Sun</div>
+        <div class="day">Mon</div>
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+        <div class="day">Thu</div>
+        <div class="day">Fri</div>
+        <div class="day">Sat</div>
+    </div>
+    <div class="dates">
+        <div class="date empty"></div>
+        <div class="date empty"></div>
+        <div class="date empty"></div>
+        <div class="date empty"></div>
+        <div class="date">1</div>
+        <div class="date">2</div>
+        <div class="date">3</div>
+        <div class="date">4</div>
+        <div class="date">5</div>
+        <div class="date">6</div>
+        <div class="date">7</div>
+        <div class="date">8</div>
+        <div class="date">9</div>
+        <div class="date">10</div>
+        <div class="date">11</div>
+        <div class="date">12</div>
+        <div class="date">13</div>
+        <div class="date">14</div>
+        <div class="date">15</div>
+        <div class="date">16</div>
+        <div class="date">17</div>
+        <div class="date">18</div>
+        <div class="date">19</div>
+        <div class="date">20</div>
+        <div class="date">21</div>
+        <div class="date">22</div>
+        <div class="date">23</div>
+        <div class="date">24</div>
+        <div class="date">25</div>
+        <div class="date">26</div>
+        <div class="date">27</div>
+        <div class="date">28</div>
+        <div class="date">29</div>
+        <div class="date">30</div>
+        <div class="date empty"></div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+    <script src="./sidebar.js"></script>
+    <script src="./logininfo.js"></script>
+    <script src="./searchbar.js"></script>
+  </body>
+</html>

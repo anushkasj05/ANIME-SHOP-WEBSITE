@@ -1,0 +1,166 @@
+.row1 {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  margin: 20px;
+  padding: 30px;
+  margin-left: 300px;
+}
+.container1 {
+  background-color: rgb(8, 1, 29);
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 300px;
+  height: 150px;
+  margin-left: 25px;
+}
+.box1 {
+  color: red;
+  font-size: 50px;
+  background-color: rgb(8, 1, 29);
+  align-content: center;
+  padding-left: 20px;
+}
+.box2 {
+  background-color: rgb(8, 1, 29);
+  align-content: center;
+}
+.box2 h1 {
+  background-color: rgb(8, 1, 29);
+  font-size: 20px;
+  padding-left: 110px;
+}
+.table h1 {
+  color: white;
+  margin-left: 300px;
+}
+table {
+  color: white;
+  width: 100%;
+  max-width: 80%;
+  margin: 20px auto;
+  border: 2px solid white;
+  background-color: rgb(8, 1, 29);
+  margin-left: 300px;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid #555;
+  background-color: rgb(8, 1, 29);
+}
+
+th {
+  background-color: red;
+}
+
+.detail-button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.detail-button:hover {
+  background-color: #c0392b;
+}
+
+.show-all {
+  display: block;
+  text-align: right;
+  margin-bottom: 10px;
+  color: #e74c3c;
+  cursor: pointer;
+}
+
+.show-all:hover {
+  text-decoration: underline;
+}
+.msg table td{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#img{
+  display: flex;
+}
+.calendar {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 50%;
+  height: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(8, 1, 29);
+  display: grid;
+  margin-left: 280px;
+}
+
+.header {
+  background-color: rgb(8, 1, 29);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.days,
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.day,
+.date {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #eaeaea;
+}
+
+.day {
+  background-color: rgb(8, 1, 29);
+  font-weight: bold;
+  color: white;
+}
+
+.date {
+  background-color: rgb(8, 1, 29);
+  color: white;
+}
+
+.date.empty {
+  background-color: rgb(8, 1, 29);
+  color: white;
+}
+.box{
+  display: flex;
+}
+@media (max-width:768px){
+  .row1{
+    display: block;
+  }
+  .container1{
+    margin:20px;
+    margin-left: -40px;
+  }
+  table{
+    margin-left: 120px;
+  }
+  .box{
+    display: block;
+  }
+  .calendar{
+    margin-left: 190px;
+  }
+  .msg{
+    margin-left: 160px;
+  }
+}

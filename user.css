@@ -1,0 +1,44 @@
+*{
+    color: white;
+}
+.productform{
+    font-size: 16px;
+    display: none;
+    background-color: rgb(8, 1, 25);
+    padding: 50px;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 600px;
+    z-index: 2;
+    color: white;
+    border: 10px solid white;
+}
+
+.ubtn{
+    display: none;
+}
+button{
+    color: white;
+    font-size: 12px;
+}
+#searchoption{
+    color: white;
+}
+input{
+    color: white;
+    background-color: rgb(8, 1, 25);
+}
+.mainbody{
+    margin-left: 400px;
+}
+@media(max-width:768px){
+    .mainbody{
+        margin-left: 200px;
+    }
+}
+@media(max-width:480px){
+    .mainbody {
+        margin-left: 110px;
+        font-size: 10px;
+    }
+}

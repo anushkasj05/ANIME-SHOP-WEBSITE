@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="adminSignUp.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="header">
+      <div class="navigation">
+        <div class="logo">
+          <h1>Ani<span>me</span></h1>
+        </div>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li id="homepage"><a href="index.html">Homepage</a></li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Categories<i class="fa-solid fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="login.html">Login</a>
+                  <a href="cart.html">Cart</a>
+                  <a href="checkout.html">Checkout</a>
+                </div>
+              </div>
+              <li><a href="#">Our Blog</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="icon">
+          <a href="#"><i class="fa fa-search"></i></a>
+          <a href="login.html"><i class="fa-solid fa-person"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="banner">
+      <div class="banner-text">
+        <img src="banner/banner2.jpg" alt="banner2" />
+      </div>
+    </section>
+
+    <!-- Login Section Begin -->
+    <div class="login-container">
+      <div class="login">
+        <h1>Admin Sign-Up</h1>
+        <form id="loginForm">
+          <div class="input-group">
+            <div class="box">
+              <label for="name">Username</label>
+              <input type="text" id="name" placeholder="Enter Name" />
+            </div>
+            <div class="box">
+              <label for="image">Enter image url</label>
+              <input type="text" id="image" placeholder="Enter image url" />
+            </div>
+            <div class="box">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter Email" />
+            </div>
+            <div class="box">
+              <label for="mob">Mobile Number</label>
+              <input type="text" id="mob" placeholder="Enter Mobile number" />
+            </div>
+            <div class="box">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter password"
+              />
+            </div>
+            <div class="box">
+              <label for="cpassword">Confirm Password</label>
+              <input
+                type="password"
+                id="cpassword"
+                placeholder="Enter Confirm Password"
+              />
+            </div>
+          </div>
+          <div class="registration-button">
+            <button onclick="reg()">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer section -->
+    <section class="foot">
+      <footer class="footer">
+        <div class="nav">
+          <nav>
+            <ul>
+              <h1>Navigation</h1>
+              <li><a href="#">Browse Popular</a></li>
+              <li><a href="#">Browse Simulcasts</a></li>
+              <li><a href="#">Release Calendar</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Games</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="Connect">
+          <nav>
+            <ul>
+              <h1>Connect with us</h1>
+              <li><a href="#">Youtube</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="anime">
+          <nav>
+            <ul>
+              <h1>Anime</h1>
+              <li><a href="#">Anime</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">AdChoices</a></li>
+              <li>
+                <a href="#">Do not sell or share my personal Information</a>
+              </li>
+              <li><a href="#">Cookie Consent Tool</a></li>
+              <li><a href="#">Press Inquiries</a></li>
+              <li><a href="#">Get the Apps</a></li>
+              <li><a href="#">Redeem Gift Card</a></li>
+              <li><a href="#">Jobs</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </section>
+    <section class="foot1">
+      <div class="foot2">
+        <footer>
+          <div class="copyright">
+            <p>© 2024 Anime. All Rights Reserved.</p>
+          </div>
+        </footer>
+      </div>
+    </section>
+    <script src="./adimSignUp.js"></script>
+    <!-- <script>
+      function reg(event) {
+        event.preventDefault(); // Prevent the form from submitting
+        window.open("./adminloginafterreg.html", "_blank"); // Open the new page
+      }
+    </script> -->
+    <script></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "user": [
+    {
+      "name": "Anushka",
+      "email": "anushka@gmail.com",
+      "id": "c35b"
+    },
+    {
+      "id": "ca87",
+      "name": "Divyansh",
+      "email": "divyansh@gmail.com",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkoQ7a8RHWRwj8hrha4KJERrAAPW3RmSvtTw&s",
+      "mob": "1251751271",
+      "password": "anu",
+      "cpassword": "anu"
+    },
+    {
+      "id": "656f",
+      "name": "Sonali",
+      "email": "sonali@gmail.com"
+    },
+    {
+      "id": "580e",
+      "name": "Argha",
+      "email": "argha@gmail.com"
+    },
+    {
+      "id": "016e",
+      "name": "Anu",
+      "email": "anu@gmail.com"
+    },
+    {
+      "id": "ead4",
+      "name": "",
+      "email": "",
+      "image": "",
+      "mob": "",
+      "password": "",
+      "cpassword": ""
+    }
+  ]
+}

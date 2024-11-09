@@ -1,0 +1,27 @@
+{
+  "user": [
+    {
+      "name": "Divaynsh",
+      "email": "divyansh@gmail.com",
+      "id": "699a"
+    },
+    {
+      "id": "2ad4",
+      "name": "Anushka",
+      "email": "anushka@gmail.com",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/036/135/738/small_2x/ai-generated-colored-water-drops-on-abstract-background-water-drops-on-colorful-background-colored-wallpaper-ultra-hd-colorful-wallpaper-background-with-colored-bubbles-photo.jpg",
+      "mob": "01234567890",
+      "password": "divyansh",
+      "cpassword": "divyansh"
+    },
+    {
+      "id": "daec",
+      "name": "",
+      "email": "",
+      "image": "",
+      "mob": "",
+      "password": "",
+      "cpassword": ""
+    }
+  ]
+}

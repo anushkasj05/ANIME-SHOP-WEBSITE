@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(10, 2, 36);
+}
+
+.header {
+  width: 100%;
+}
+.header .navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  background-color: rgb(8, 1, 25);
+}
+.header .navigation .logo {
+  color: white;
+}
+.header .navigation .logo span {
+  color: red;
+}
+.header .navigation .menu nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.header .navigation .menu nav ul li select {
+  background-color: rgb(8, 1, 25);
+  color: white;
+  border: none;
+}
+.header .navigation .menu nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.header .navigation .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.header .navigation .icon a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.banner {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  padding: 50px;
+}
+
+.body {
+  display: grid;
+  justify-content: center;
+}
+.body .trending .trend-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  border-left: 5px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.body .trending .image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-template-rows: 2;
+  align-content: center;
+  color: white;
+  padding-top: 10px;
+}
+.body .popular .popular-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  border-left: 5px solid red;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.body .popular .image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-template-rows: 2;
+  align-content: center;
+  color: white;
+  padding-top: 10px;
+}
+.body .recently .recently-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  border-left: 5px solid red;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.body .recently .image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-template-rows: 2;
+  align-content: center;
+  color: white;
+  padding-top: 10px;
+}
+.body .live .live-text {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  border-left: 5px solid red;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.body .live .image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-template-rows: 2;
+  align-content: center;
+  color: white;
+  padding-top: 10px;
+}
+
+.foot {
+  background-color: #000;
+  display: grid;
+  justify-content: center;
+}
+.foot .footer {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-content: center;
+  height: 300px;
+  color: white;
+}
+.foot .footer .nav nav ul h1 {
+  color: white;
+}
+.foot .footer .nav nav ul li {
+  list-style: none;
+}
+.foot .footer .nav nav ul li a {
+  color: rgba(255, 255, 255, 0.347);
+  text-decoration: none;
+}
+.foot .footer .Connect nav ul h1 {
+  color: white;
+}
+.foot .footer .Connect nav ul li {
+  list-style: none;
+}
+.foot .footer .Connect nav ul li a {
+  color: rgba(255, 255, 255, 0.347);
+  text-decoration: none;
+}
+.foot .footer .anime nav ul h1 {
+  color: white;
+}
+.foot .footer .anime nav ul li {
+  list-style: none;
+}
+.foot .footer .anime nav ul li a {
+  color: rgba(255, 255, 255, 0.347);
+  text-decoration: none;
+}
+
+.foot1 {
+  display: grid;
+  justify-content: center;
+  height: 100px;
+  align-content: center;
+  background-color: #000000;
+}
+.foot1 .foot2 footer p {
+  color: white;
+}/*# sourceMappingURL=product.css.map */
